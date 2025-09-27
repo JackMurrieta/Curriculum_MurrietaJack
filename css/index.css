@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.seccion__portada {
+  display: flex;
+  flex-direction: column;
+}
+.contenedor__img {
+  display: flex;
+  width: 50%;
+  border-radius: 50%;
+}
+.contenedor__gitHub {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.contenedor__img--logo {
+  background-size: cover; /* Scale the image to cover the entire div */
+  background-position: center; /* Center the image within the div */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 300px; /* Set a height for the div to make the background visible */
+  width: 100%; /* Set a width for the div */
+}
+
+.logo--gitHub {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/25/25231.png);
+}
+
+.logo--correo {
+  background-image: url(https://images.icon-icons.com/1826/PNG/512/4202011emailgmaillogomailsocialsocialmedia-115677_115624.png);
+}
+
+.contenedor__correo {
+}
+
+.seccion__semblanza {
+}
+.seccion__experiencia {
+}
+.contenedor__exp {
+}
+.contenedor__edu {
+}
+.contenedor__idiomas {
+}
+
+* {
+  margin: 0;
+  padding: 0px;
+}
